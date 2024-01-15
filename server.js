@@ -2,7 +2,7 @@
 const express = require('express')
 const app = express ()
 const port = 5000
-
+const cors = request
 //which door number is the server going to be listening at?//
 app.listen(port, () => {
     console.log ('the server is running!')
